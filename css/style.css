@@ -1,0 +1,75 @@
+/*CSS for body*/
+body
+{
+    background-image: url("../images/apps.53490.13853820101370408.11d36223-5a5b-45b5-9296-c9f59d5f5174.jpg");
+}
+h1,h3
+{
+    color: palegoldenrod    
+ }
+ h3
+ {     
+     font: 24px;    
+ }
+ h1
+ {
+     font:36px;
+     background:black;
+     text-align: center;
+ }
+ 
+ p{
+     color: aliceblue;
+ }
+ 
+/*CSS for section-karthi*/
+#karthi{
+    color: white;
+    
+}
+#karthi h1
+{
+    border-bottom:2px solid#82c9f8e7;
+    margin:20px;
+}
+#karthi h3
+{
+    display: inline;
+    border-bottom:2px solid #82c9f8e7;
+}
+#karthi h1
+{ 
+    align-content: center;
+    position: sticky;
+    top: 0%;
+    border-width: 1px 5px 2px 3px;
+    border-color: #82c9f8e7;
+    border-style: dotted dashed solid double;
+    padding: 20px;
+    
+}
+#karthi p2,p3,p1
+{
+    display: block;
+}
+
+/*CSS for section-lmp*/
+#lmp h1 {
+    align-content: center;
+    position: sticky;
+    top: 0%;
+    border-width: 1px 5px 2px 3px;
+    border-color: #82c9f8e7;
+    border-style: dotted dashed solid double;
+    padding: 20px;
+}
+#lmp h3
+{
+    display: inline;
+    border-width:4px 2px 4px 0px;
+    border-color:#82c9f8e7;
+    border-style:solid;
+}
+#box5:hover{
+background-color: white;
+}

@@ -1,0 +1,132 @@
+/*CSS for table*/
+table
+{
+    border-collapse: collapse;
+}
+
+/*CSS for div block*/
+div
+{
+    color:whitesmoke;
+}
+
+/*CSS for button*/
+button
+{
+    width: 30%;
+    padding:20px;
+    margin:20px;
+    color:white;
+    font-size: 20px;
+    background:linear-gradient(to left,#1b8bd693 0%,#70124993 100%);
+    border-radius: 19%;
+}
+
+/*CSS for Label*/
+label 
+{
+    font-size:20px;
+}
+
+/*CSS for ID="table_1"*/
+#table_1
+{
+    margin-left:150px;
+    border-collapse: collapse;
+    background: linear-gradient(to left,#1b8bd693 10%,#70124993 100%);
+    
+}
+#table_1 th
+{
+    background: -webkit-linear-gradient(#fa96d0e7,#82c9f8e7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#table_1 td,th
+{
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px solid whitesmoke;
+    font-size: 20px;
+}
+
+/*CSS for ID="table_2"*/
+#table_2
+{ 
+    border:3px solid white ;
+    margin-top:30px;
+    margin-left: 250px;
+    width: 35%;
+    background: linear-gradient(to left,#1b8bd693 10%,#70124993 100%);
+}
+#table_2 td
+{
+    padding: 15px;
+   
+}
+#table_2 h1
+{
+    font-size: 52px;
+    background: -webkit-linear-gradient(#fa96d0e7,#82c9f8e7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*CSS for Box*/
+#box1{
+    width:100vw;
+    height: 160vh;
+    background-image: url("../images/apps.53490.13853820101370408.11d36223-5a5b-45b5-9296-c9f59d5f5174.jpg")
+}
+#box2{
+    width: 20vw;
+    height: 30vh;
+    position: relative;
+    box-shadow: 5px 10px #888888;
+    background-image: url("../images/download.jpg");
+    border-radius: 20%;
+}
+#box3{
+    width:20vw;
+    height:30vh;
+    background-image: url("../images/pic.jpg");
+    background-size: cover;
+    position: absolute;
+    border-radius: 20%;
+    margin-left: 256px;
+    margin-top: 30px;
+    box-shadow: 5px 10px #888888;
+}
+#box4{
+    width:20vw;
+    height:30vh;
+    background-image: url("../images/images.jpg");
+    border-radius: 20%;
+    position: absolute;
+    margin-left: 510px;
+    margin-top: 255px;
+    box-shadow: 5px 10px #888888;
+}
+#box5{
+    width:14vw;
+    height:28vh;
+    background:rgba(118, 116, 131, 0.753);
+    position: absolute;
+    margin-top:500px;
+    margin-left:800px;
+    box-shadow: 5px 10px #888888;
+    border-radius: 60%;
+}
+
+/*Media query*/
+@media only screen and (min-width: 300px) and (max-width:670){
+    #box2{
+      background-color: rgb(68, 18, 148);
+      background-image: unset;
+    }
+ } 
+ @media only screen and (min-width: 671px) {
+    #box2{
+      background-color: rgb(160, 216, 146);
+      background-image: unset;
+    }
+ }
